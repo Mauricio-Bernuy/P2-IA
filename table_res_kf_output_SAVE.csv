@@ -1,0 +1,19 @@
+Precision,Recall,F1,AUC,Validator(...),Reductor(...),Classifier(...)
+0.12821254710544588,0.12846401098557902,0.127954821324541,0.5452927254893994,"KFold(n_iterations=10, shuffle=False)",LDA(n_components=1),KNeighborsClassifier(n_neighbors=1)
+0.13051198497288644,0.1407486786775218,0.12216956219093059,0.607812370137934,"KFold(n_iterations=10, shuffle=False)",LDA(n_components=1),KNeighborsClassifier(n_neighbors=3)
+0.13809864410675984,0.14847476488497044,0.13775761277721926,0.6667048338945497,"KFold(n_iterations=10, shuffle=False)",LDA(n_components=1),KNeighborsClassifier(n_neighbors=6)
+0.992289586727451,0.9923632211462735,0.9923008777838627,0.9960152986120626,"KFold(n_iterations=10, shuffle=False)",LDA(n_components=8),KNeighborsClassifier(n_neighbors=1)
+0.9896362263472597,0.9897240133756131,0.9896417648794511,0.9980310862842974,"KFold(n_iterations=10, shuffle=False)",LDA(n_components=8),KNeighborsClassifier(n_neighbors=3)
+0.985723253597269,0.985781436668792,0.9856800762226682,0.998819802043742,"KFold(n_iterations=10, shuffle=False)",LDA(n_components=8),KNeighborsClassifier(n_neighbors=6)
+0.11799898855778221,0.1809312729050704,0.12820893161213306,0.8266517747001586,"KFold(n_iterations=5, shuffle=False)",LDA(n_components=1),SVC(decision_function_shape=ovo)
+0.11799898855778221,0.1809312729050704,0.12820893161213306,0.8266624651022182,"KFold(n_iterations=5, shuffle=False)",LDA(n_components=1),SVC(decision_function_shape=ovr)
+0.10168554438233848,0.1723814432210536,0.11737468008969817,0.8133449252314371,"KFold(n_iterations=5, shuffle=False)",LDA(n_components=1),LinearSVC())
+0.8611300726392445,0.8611578775043153,0.8604105217872281,0.9934201615790549,"KFold(n_iterations=5, shuffle=False)",LDA(n_components=8),SVC(decision_function_shape=ovo)
+0.8611300726392445,0.8611578775043153,0.8604105217872281,0.9934211871763653,"KFold(n_iterations=5, shuffle=False)",LDA(n_components=8),SVC(decision_function_shape=ovr)
+0.7617134545858176,0.767085623428884,0.7607995263044356,0.981192724704696,"KFold(n_iterations=5, shuffle=False)",LDA(n_components=8),LinearSVC())
+0.1258646578512523,0.18254378664247434,0.14089659058960485,0.8278503471660328,"KFold(n_iterations=10, shuffle=False)",LDA(n_components=1),"DecisionTreeClassifier(criterion='gini',max_depth=5)"
+0.14390836356419845,0.15068700602759702,0.14392249454699063,0.6729700947485595,"KFold(n_iterations=10, shuffle=False)",LDA(n_components=1),"DecisionTreeClassifier(criterion='gini',max_depth=20)"
+0.12821286850508623,0.12847002349159153,0.12795635655200668,0.5452961444223746,"KFold(n_iterations=10, shuffle=False)",LDA(n_components=1),"DecisionTreeClassifier(criterion='gini',max_depth=None)"
+0.40112134888624,0.36671508142319054,0.3058186748258316,0.8618893404201302,"KFold(n_iterations=10, shuffle=False)",LDA(n_components=8),"DecisionTreeClassifier(criterion='gini',max_depth=5)"
+0.8925274733230619,0.8917726394735803,0.8917388784980714,0.9598078227487674,"KFold(n_iterations=10, shuffle=False)",LDA(n_components=8),"DecisionTreeClassifier(criterion='gini',max_depth=20)"
+0.9037299155951484,0.9035700883840218,0.9033656693316428,0.9496902258677679,"KFold(n_iterations=10, shuffle=False)",LDA(n_components=8),"DecisionTreeClassifier(criterion='gini',max_depth=None)"

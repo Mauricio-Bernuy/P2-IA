@@ -1,0 +1,2 @@
+Precision,Recall,F1,AUC,Validator(...),Reductor(...),Classifier(...)
+0.7070802210611374,0.4594622327136628,0.4726207411769394,0.9729034787739561,"Bootstrap(n_iterations=1, sample_size=0.5)",LDA(n_components=8),"SVC(C=C_,decision_function_shape=ovo)"

@@ -1,0 +1,10 @@
+Precision,Recall,F1,AUC,Validator(...),Reductor(...),Classifier(...)
+0.3096654639125826,0.28057622852149533,0.20780891909562021,0.8267819897415037,"KFold(n_iterations=5, shuffle=True)",LDA(n_components=20),"DecisionTreeClassifier(criterion='gini',min_samples_split=2,max_depth=5)"
+0.28958768122259393,0.28043342188873915,0.2076136045343374,0.8268598064494498,"KFold(n_iterations=5, shuffle=True)",LDA(n_components=20),"DecisionTreeClassifier(criterion='gini',min_samples_split=10,max_depth=5)"
+0.2572821544480387,0.28013922439884686,0.20708347742481523,0.8267734767038977,"KFold(n_iterations=5, shuffle=True)",LDA(n_components=20),"DecisionTreeClassifier(criterion='gini',min_samples_split=20,max_depth=5)"
+0.9614011073674316,0.9597316339459354,0.9602204911105179,0.9874630705530691,"KFold(n_iterations=5, shuffle=True)",LDA(n_components=20),"DecisionTreeClassifier(criterion='gini',min_samples_split=2,max_depth=20)"
+0.9578853768141331,0.9559283628637708,0.956513675255031,0.9889890519390775,"KFold(n_iterations=5, shuffle=True)",LDA(n_components=20),"DecisionTreeClassifier(criterion='gini',min_samples_split=10,max_depth=20)"
+0.9527250980560641,0.9508003640048075,0.9513765628036268,0.9900763151581735,"KFold(n_iterations=5, shuffle=True)",LDA(n_components=20),"DecisionTreeClassifier(criterion='gini',min_samples_split=20,max_depth=20)"
+0.9702460781909066,0.9700115062205936,0.9700462210498808,0.9843406307132027,"KFold(n_iterations=5, shuffle=True)",LDA(n_components=20),"DecisionTreeClassifier(criterion='gini',min_samples_split=2,max_depth=None)"
+0.9640141705648672,0.9636711653442658,0.9636752095973202,0.986619225016177,"KFold(n_iterations=5, shuffle=True)",LDA(n_components=20),"DecisionTreeClassifier(criterion='gini',min_samples_split=10,max_depth=None)"
+0.958394571674277,0.9579058628393458,0.9579717217513256,0.9883341345909594,"KFold(n_iterations=5, shuffle=True)",LDA(n_components=20),"DecisionTreeClassifier(criterion='gini',min_samples_split=20,max_depth=None)"

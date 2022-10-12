@@ -1,0 +1,7 @@
+Precision,Recall,F1,AUC,Validator(...),Reductor(...),Classifier(...)
+0.9983946016082339,0.9984229677616379,0.9984051937261771,0.9991766412004159,"KFold(n_iterations=5, shuffle=True)",PCA(n_components=50),"KNeighborsClassifier(n_neighbors=1,weights=uniform)"
+0.9984335424182028,0.9984559058380542,0.9984412768622034,0.9991938996790687,"KFold(n_iterations=5, shuffle=True)",PCA(n_components=50),"KNeighborsClassifier(n_neighbors=1,weights=distance)"
+0.9941639760990407,0.9942574573511006,0.9941841681599882,0.9995893839308053,"KFold(n_iterations=5, shuffle=True)",PCA(n_components=50),"KNeighborsClassifier(n_neighbors=3,weights=uniform)"
+0.9965580467922555,0.9965571236089217,0.9965458468897213,0.9995764437569669,"KFold(n_iterations=5, shuffle=True)",PCA(n_components=50),"KNeighborsClassifier(n_neighbors=3,weights=distance)"
+0.9863327873675047,0.9864308190195491,0.9863020940846899,0.999715368137142,"KFold(n_iterations=5, shuffle=True)",PCA(n_components=50),"KNeighborsClassifier(n_neighbors=6,weights=uniform)"
+0.9949526059492777,0.9949424495891794,0.99493084116697,0.9997468777206049,"KFold(n_iterations=5, shuffle=True)",PCA(n_components=50),"KNeighborsClassifier(n_neighbors=6,weights=distance)"

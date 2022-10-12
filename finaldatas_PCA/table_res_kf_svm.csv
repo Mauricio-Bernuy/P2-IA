@@ -1,0 +1,7 @@
+Precision,Recall,F1,AUC,Validator(...),Reductor(...),Classifier(...)
+0.9764333355454891,0.9758815467557873,0.975916330093358,0.9997687145387479,"KFold(n_iterations=5, shuffle=True)",PCA(n_components=50),"SVC(kernel='rbf',C=2,gamma=0.01,decision_function_shape=ovo)"
+0.9934312909207966,0.9931131309059322,0.9931869102591395,0.9999848330637281,"KFold(n_iterations=5, shuffle=True)",PCA(n_components=50),"SVC(kernel='rbf',C=4,gamma=0.01,decision_function_shape=ovo)"
+0.9995474211846445,0.9995167103966647,0.9995277716745694,0.9999999929367039,"KFold(n_iterations=5, shuffle=True)",PCA(n_components=50),"SVC(kernel='rbf',C=8,gamma=0.01,decision_function_shape=ovo)"
+0.989373665118267,0.9890771987011409,0.9890647911379412,0.9999204321693334,"KFold(n_iterations=5, shuffle=True)",PCA(n_components=50),"SVC(kernel='poly',C=2,decision_function_shape=ovo)"
+0.9958424478900187,0.9958860091944033,0.9958354562787484,0.9999514164604534,"KFold(n_iterations=5, shuffle=True)",PCA(n_components=50),"SVC(kernel='poly',C=4,decision_function_shape=ovo)"
+0.9978372526257573,0.9978679227411252,0.9978443737299172,0.9999518283460216,"KFold(n_iterations=5, shuffle=True)",PCA(n_components=50),"SVC(kernel='poly',C=8,decision_function_shape=ovo)"

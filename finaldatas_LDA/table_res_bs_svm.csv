@@ -1,0 +1,13 @@
+Precision,Recall,F1,AUC,Validator(...),Reductor(...),Classifier(...)
+0.9972777228467784,0.9972891452327888,0.9972737514607196,0.9999912896712122,"Bootstrap(n_iterations=5, sample_size=0.8)",LDA(n_components=20),"SVC(kernel='rbf',C=2,gamma=0.01,decision_function_shape=ovo)"
+0.9968624715031282,0.9962553744725348,0.9965134276644747,0.9999971807056113,"Bootstrap(n_iterations=5, sample_size=0.8)",LDA(n_components=20),"SVC(kernel='rbf',C=2,gamma=0.1,decision_function_shape=ovo)"
+0.9984144247145,0.9984060109208499,0.9984087930548295,0.9999967367139536,"Bootstrap(n_iterations=5, sample_size=0.8)",LDA(n_components=20),"SVC(kernel='rbf',C=4,gamma=0.01,decision_function_shape=ovo)"
+0.9967599051956423,0.9962213495862755,0.9964416825806278,0.9999973106736384,"Bootstrap(n_iterations=5, sample_size=0.8)",LDA(n_components=20),"SVC(kernel='rbf',C=4,gamma=0.1,decision_function_shape=ovo)"
+0.9983217279720149,0.998284587667003,0.9982998753649343,0.9999972394708596,"Bootstrap(n_iterations=5, sample_size=0.8)",LDA(n_components=20),"SVC(kernel='rbf',C=8,gamma=0.01,decision_function_shape=ovo)"
+0.9967627735428124,0.9960700411451793,0.9963596945339745,0.99999760037008,"Bootstrap(n_iterations=5, sample_size=0.8)",LDA(n_components=20),"SVC(kernel='rbf',C=8,gamma=0.1,decision_function_shape=ovo)"
+0.9892420438643068,0.9854060549511541,0.9867231466825379,0.9999165003636078,"Bootstrap(n_iterations=5, sample_size=0.8)",LDA(n_components=20),"SVC(kernel='poly',C=2,decision_function_shape=ovo)"
+0.9932875034874288,0.9921006235210115,0.9925473984020403,0.9999268979733253,"Bootstrap(n_iterations=5, sample_size=0.8)",LDA(n_components=20),"SVC(kernel='poly',C=4,decision_function_shape=ovo)"
+0.9956131428968986,0.9949685308277093,0.9952242489725414,0.9999658521460185,"Bootstrap(n_iterations=5, sample_size=0.8)",LDA(n_components=20),"SVC(kernel='poly',C=8,decision_function_shape=ovo)"
+0.981317502593852,0.9813408280396734,0.9812535831895923,0.9994309039015651,"Bootstrap(n_iterations=5, sample_size=0.8)",LDA(n_components=20),"LinearSVC(C=2,decision_function_shape=ovo)"
+0.9831769618941406,0.9831047392640733,0.9830801343611271,0.9995546179759438,"Bootstrap(n_iterations=5, sample_size=0.8)",LDA(n_components=20),"LinearSVC(C=4,decision_function_shape=ovo)"
+0.9820476203753257,0.982420723592113,0.9821180991058842,0.9994954678229462,"Bootstrap(n_iterations=5, sample_size=0.8)",LDA(n_components=20),"LinearSVC(C=8,decision_function_shape=ovo)"

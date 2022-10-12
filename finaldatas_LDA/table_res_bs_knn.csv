@@ -1,0 +1,7 @@
+Precision,Recall,F1,AUC,Validator(...),Reductor(...),Classifier(...)
+0.9996942687626179,0.9996979560088523,0.9996957124254962,0.9998423092786201,"Bootstrap(n_iterations=5, sample_size=0.8)",LDA(n_components=20),"KNeighborsClassifier(n_neighbors=1,weights=uniform)"
+0.9997340175487921,0.9997215123851457,0.9997274134551238,0.999854757653055,"Bootstrap(n_iterations=5, sample_size=0.8)",LDA(n_components=20),"KNeighborsClassifier(n_neighbors=1,weights=distance)"
+0.9994853464050648,0.9994749909780241,0.9994795367381784,0.9999152965479462,"Bootstrap(n_iterations=5, sample_size=0.8)",LDA(n_components=20),"KNeighborsClassifier(n_neighbors=3,weights=uniform)"
+0.9993862827439143,0.9993876741207858,0.9993862084487961,0.9999246473824979,"Bootstrap(n_iterations=5, sample_size=0.8)",LDA(n_components=20),"KNeighborsClassifier(n_neighbors=3,weights=distance)"
+0.9990537234190239,0.9990522415695523,0.9990521105495109,0.9999839188633167,"Bootstrap(n_iterations=5, sample_size=0.8)",LDA(n_components=20),"KNeighborsClassifier(n_neighbors=6,weights=uniform)"
+0.999243465737053,0.9992324510926673,0.999237064810011,0.9999440243456018,"Bootstrap(n_iterations=5, sample_size=0.8)",LDA(n_components=20),"KNeighborsClassifier(n_neighbors=6,weights=distance)"

@@ -1,0 +1,10 @@
+Precision,Recall,F1,AUC,Validator(...),Reductor(...),Classifier(...)
+0.35610256448348643,0.2735217170080325,0.24803871468427205,0.8225009600497224,"Bootstrap(n_iterations=5, sample_size=0.8)",PCA(n_components=20),"DecisionTreeClassifier(criterion='gini',min_samples_split=2,max_depth=5)"
+0.342422038380457,0.2701057107914103,0.2429864199379474,0.8146236156378442,"Bootstrap(n_iterations=5, sample_size=0.8)",PCA(n_components=20),"DecisionTreeClassifier(criterion='gini',min_samples_split=10,max_depth=5)"
+0.35127751754115477,0.26013468803490214,0.2206073346363011,0.8153630661151139,"Bootstrap(n_iterations=5, sample_size=0.8)",PCA(n_components=20),"DecisionTreeClassifier(criterion='gini',min_samples_split=20,max_depth=5)"
+0.9266372109766735,0.9262678108418797,0.9263054167105927,0.9636340458304474,"Bootstrap(n_iterations=5, sample_size=0.8)",PCA(n_components=20),"DecisionTreeClassifier(criterion='gini',min_samples_split=2,max_depth=20)"
+0.9081459597959155,0.9079709885048837,0.9078399745285364,0.9674874156689036,"Bootstrap(n_iterations=5, sample_size=0.8)",PCA(n_components=20),"DecisionTreeClassifier(criterion='gini',min_samples_split=10,max_depth=20)"
+0.8879259326579294,0.8876662370342909,0.8872905954320235,0.9700419575043127,"Bootstrap(n_iterations=5, sample_size=0.8)",PCA(n_components=20),"DecisionTreeClassifier(criterion='gini',min_samples_split=20,max_depth=20)"
+0.9307836629316737,0.9308066391716141,0.9306605899213267,0.9638893719035876,"Bootstrap(n_iterations=5, sample_size=0.8)",PCA(n_components=20),"DecisionTreeClassifier(criterion='gini',min_samples_split=2,max_depth=None)"
+0.9128949771005377,0.9128415016533801,0.9126687346169927,0.9685068211607695,"Bootstrap(n_iterations=5, sample_size=0.8)",PCA(n_components=20),"DecisionTreeClassifier(criterion='gini',min_samples_split=10,max_depth=None)"
+0.8881328195154807,0.8877555520868855,0.8875411419514908,0.9704802596378037,"Bootstrap(n_iterations=5, sample_size=0.8)",PCA(n_components=20),"DecisionTreeClassifier(criterion='gini',min_samples_split=20,max_depth=None)"

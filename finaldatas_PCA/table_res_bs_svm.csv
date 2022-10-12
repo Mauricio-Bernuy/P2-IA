@@ -1,0 +1,7 @@
+Precision,Recall,F1,AUC,Validator(...),Reductor(...),Classifier(...)
+0.9940382694951129,0.9935072702290029,0.9937237301261215,0.9999829026122715,"Bootstrap(n_iterations=5, sample_size=0.8)",PCA(n_components=50),"SVC(kernel='rbf',C=2,gamma=0.01,decision_function_shape=ovo)"
+0.993633970852615,0.9930446936822921,0.9932863662901534,0.9999851902222657,"Bootstrap(n_iterations=5, sample_size=0.8)",PCA(n_components=50),"SVC(kernel='rbf',C=4,gamma=0.01,decision_function_shape=ovo)"
+0.9935373587823039,0.9929225136551052,0.9931659777009495,0.9999718763881491,"Bootstrap(n_iterations=5, sample_size=0.8)",PCA(n_components=50),"SVC(kernel='rbf',C=8,gamma=0.01,decision_function_shape=ovo)"
+0.9781883254323651,0.9768097264340309,0.9770111475993748,0.9995024293559688,"Bootstrap(n_iterations=5, sample_size=0.8)",PCA(n_components=50),"SVC(kernel='poly',C=2,decision_function_shape=ovo)"
+0.9890860783503094,0.9888757938473522,0.9889002899615227,0.9997674554433255,"Bootstrap(n_iterations=5, sample_size=0.8)",PCA(n_components=50),"SVC(kernel='poly',C=4,decision_function_shape=ovo)"
+0.9939696635576828,0.9940809583708022,0.9939966842777664,0.9999127015637017,"Bootstrap(n_iterations=5, sample_size=0.8)",PCA(n_components=50),"SVC(kernel='poly',C=8,decision_function_shape=ovo)"

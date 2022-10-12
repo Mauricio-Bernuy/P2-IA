@@ -1,0 +1,10 @@
+Precision,Recall,F1,AUC,Validator(...),Reductor(...),Classifier(...)
+0.3018101390353706,0.2985740539209899,0.2319565343102524,0.8276681412556088,"Bootstrap(n_iterations=5, sample_size=0.8)",LDA(n_components=20),"DecisionTreeClassifier(criterion='gini',min_samples_split=2,max_depth=5)"
+0.3325136303086009,0.2915120939161355,0.23281925498987754,0.813955530902248,"Bootstrap(n_iterations=5, sample_size=0.8)",LDA(n_components=20),"DecisionTreeClassifier(criterion='gini',min_samples_split=10,max_depth=5)"
+0.2749498810440441,0.2940252742570367,0.22088130863922192,0.8365338167764385,"Bootstrap(n_iterations=5, sample_size=0.8)",LDA(n_components=20),"DecisionTreeClassifier(criterion='gini',min_samples_split=20,max_depth=5)"
+0.9513060018058026,0.94793752085099,0.9490211841912167,0.9815974559424342,"Bootstrap(n_iterations=5, sample_size=0.8)",LDA(n_components=20),"DecisionTreeClassifier(criterion='gini',min_samples_split=2,max_depth=20)"
+0.945119598756355,0.943115860384679,0.943604231133423,0.9837121628406631,"Bootstrap(n_iterations=5, sample_size=0.8)",LDA(n_components=20),"DecisionTreeClassifier(criterion='gini',min_samples_split=10,max_depth=20)"
+0.9446200309272854,0.9414528638620625,0.9424117499746888,0.9837093864789537,"Bootstrap(n_iterations=5, sample_size=0.8)",LDA(n_components=20),"DecisionTreeClassifier(criterion='gini',min_samples_split=20,max_depth=20)"
+0.9576882591693906,0.9572062080710211,0.9573671804841546,0.9776576605109479,"Bootstrap(n_iterations=5, sample_size=0.8)",LDA(n_components=20),"DecisionTreeClassifier(criterion='gini',min_samples_split=2,max_depth=None)"
+0.9507869133136341,0.9505978423626752,0.9505549401704219,0.9806126961744661,"Bootstrap(n_iterations=5, sample_size=0.8)",LDA(n_components=20),"DecisionTreeClassifier(criterion='gini',min_samples_split=10,max_depth=None)"
+0.9451134592298918,0.9440986973722278,0.9443944894930614,0.9829975996395424,"Bootstrap(n_iterations=5, sample_size=0.8)",LDA(n_components=20),"DecisionTreeClassifier(criterion='gini',min_samples_split=20,max_depth=None)"
